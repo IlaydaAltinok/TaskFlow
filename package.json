@@ -1,0 +1,28 @@
+{
+  "name": "taskflow",
+  "version": "1.0.0",
+  "description": "TaskFlow is a full-stack task management application built with React (Vite) and Express.js.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "concurrently -n server,client -c auto \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlaydaAltinok/TaskFlow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/IlaydaAltinok/TaskFlow/issues"
+  },
+  "homepage": "https://github.com/IlaydaAltinok/TaskFlow#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
